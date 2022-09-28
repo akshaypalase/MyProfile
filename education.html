@@ -9,36 +9,58 @@
                     font-size: xx-large;
                     
                 }
+                table,th,td{
+                    border: 1px solid rgb(6, 26, 26);
+                    border-collapse: collapse;
+                   text-align:center;
+                   padding: 10px;
+                }
+                thead tr th{
+                    background-color:rgb(24, 147, 153) ;
+                    padding: 20px;
+                }
                
             </style>
 
         </title>
     </head>
     <body>
-        <h3><u>My Education Details</u></h3><br><hr>
-        <ol>
-            <li><b><i><u>BE(Electrical)</u></i></b><br><br>
-            <b>College Name:</b><i>Viva institute of technology</i>
-            <details>
-                <summary>College Academic</summary>
-                <option><b>Passing year:</b>2020</option>
-                <option><b>percentage(cgpi):</b>60%</option>
-            </details></li><hr>
-            <li><b><i><u>HSC</b></u></i><br><br>
-                <b>College Name:</b><i>patkar college</i>
-                <Details>
-            <summary></summary>
-            <option><b>Passing year:</b>2015</option>
-            <option><b>percentage:</b>52.92%</option>
-        </Details></li><hr>
-             <li><b><i><u>SSC</b></li></u></i><br><br>
-             <b>School Name:</b><i>Abhinav vidya mandir</i>
-             <details>
-             <summary>School Academic</summary>
-             <option><b>Passing year:</b>2013</option>
-             <option><b>percentage</b>70%</option>
-            </details>
-        </ol>
-      
+        <h3><u>My Education Details</u></h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Quailfication</th>
+                    <th>School/College</th>
+                    <th>Board/University</th>
+                    <th>Year</th>
+                    <th>Percentage</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>BE</td>
+                    <td>Viva institute of technology,Thane</td>
+                    <td>Mumbai</td>
+                    <td>2020</td>
+                    <td>62%</td>
+                </tr>
+                <tr>
+                    <td>HSC</td>
+                    <td>Patkar,Mumbai</td>
+                    <td>State board</td>
+                    <td>2015</td>
+                    <td>52.92%</td>
+                </tr>
+                <tr>
+                    <td>SSC</td>
+                    <td>Abhinav vidya mandir,Thane</td>
+                    <td>State board</td>
+                    <td>2013</td>
+                    <td>70%</td>
+                </tr>
+            </tbody>
+        </table>
+
+       
     </body>
 </html>
