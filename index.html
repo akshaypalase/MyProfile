@@ -1,61 +1,92 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-        <style>
-            #nav_item,a{background-color: #bdc3c7;
-                        text-decoration: none;
-                        text-transform:uppercase;
-                        font-family: 'Sofia', cursive;
-                        
-                }
-                header{ background-color: black;
-                        color: burlywood;
-                        text-align: right;
- 
-                }
-                h1{ color: #b31217;
-                    font-size:xx-large;
-                    font-family: 'Poppins', sans-serif;
-            
 
-                }
-        </style>
-    </head>
-    <body>
-        <div><header>
-            <i class="fa fa-user" aria-hidden="true"></i>&nbsp;&nbsp;<B>Akshay Palase</B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;&nbsp;<b>9137033710</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;<b>akshaypalase3@gmail.com</b>
-        </header></div>
-        <h1 style="text-align:center" >My Profile</h1>
-        <nav id="nav_item">
-             
-            <a href="home.html" target="my_frame">Home</a>&nbsp;&nbsp;&nbsp;
-            <a href="techStack.html" target="my_frame">Tech Stack</a>&nbsp;&nbsp;&nbsp;
-            <a href="#">Education</a>&nbsp;&nbsp;&nbsp;
-            <a href="projectDetails.html" target="my_frame">Project</a>&nbsp;&nbsp;&nbsp;
-            <a href="hobbies.html" target="my_frame">Hobbies</a>&nbsp;&nbsp;&nbsp;
-            <a href="personalDetails.html" target="my_frame">Personal Details</a>&nbsp;&nbsp;&nbsp;
-        </nav>
-        <br><iframe width="900px" src="info.html" height="600px" name="my_frame">
-            
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        .nav_item,
+        nav span a {
+            background-color: #bdc3c7;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-family: 'Sofia', cursive;
+            margin-right: 20px;
+        }
 
-        </iframe>
-        <footer>
-        <b>Follow me</b>&nbsp;&nbsp;&nbsp;
-        <a href="https://in.linkedin.com/?src=go-pa&trk=sem-ga_campid=14650114791_asid=127961666580_crid=601257986854_kw=linkedin_d=c_tid=kwd-285981853_n=g_mt=p_geo=9062209_slid=&mcid=6844056167778418688&cid=&gclid=CjwKCAjw4JWZBhApEiwAtJUN0Ng5-gcIZ3MogWvZSrEuAHax6iBlBFiTjpt93CcU_mSn46v6VHvF4RoCdM4QAvD_BwE&gclsrc=aw.ds" target="blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;
-        <a href="https://www.google.com/" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;
-        <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;
-        <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-        </footer>
+        header {
+            background-color: black;
+            color: burlywood;
+            text-align: right;
 
-        
-    </body>
+        }
+
+        h1 {
+            color: #b31217;
+            font-size: xx-large;
+            font-family: 'Poppins', sans-serif;
+        }
+
+
+        .header_section {
+            margin-right: 10px;
+            font-weight: bold;
+        }
+ footer div span  .followme {
+            margin-right: 20;
+        }
+
+         #follow-me-label {
+            font-size: large;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <header>
+            <span class="header_section"><i class="fa fa-user" aria-hidden="true"></i>Akshay Palase</span>
+            <span class="header_section"><i class="fa fa-phone-square" aria-hidden="true"></i>9137033710</span>
+            <span class="header_section"><i class="fa fa-envelope" aria-hidden="true"></i>akshaypalase3@gmail.com</span>
+        </header>
+    </div>
+    <h1 style="text-align:center">My Profile</h1>
+    <nav class="nav_item">
+
+        <span><a href="home.html" target="my_frame">Home</a></span>
+        <span><a href="techStack.html" target="my_frame">Tech Stack</a></span>
+        <span><a href="education.html" target="my_frame">Education</a></span>
+        <span><a href="projectDetails.html" target="my_frame">Project</a></span>
+        <span><a href="hobbies.html" target="my_frame">Hobbies</a></span>
+        <span><a href="personalDetails.html" target="my_frame">Personal Details</a></span>
+    </nav>
+    <br><iframe width="900px" src="info.html" height="600px" name="my_frame">
+
+
+    </iframe>
+    <footer>
+        <div>
+            <span id="follow-me-label"><b>Follow me</b></span>
+            <span class="followme">
+                <a href="https://in.linkedin.com/?src=go-pa&trk=sem-ga_campid=14650114791_asid=127961666580_crid=601257986854_kw=linkedin_d=c_tid=kwd-285981853_n=g_mt=p_geo=9062209_slid=&mcid=6844056167778418688&cid=&gclid=CjwKCAjw4JWZBhApEiwAtJUN0Ng5-gcIZ3MogWvZSrEuAHax6iBlBFiTjpt93CcU_mSn46v6VHvF4RoCdM4QAvD_BwE&gclsrc=aw.ds"
+                    target="blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></span>
+            <span class="followme"><a href="https://www.google.com/" target="_blank"><i class="fa fa-google"
+                        aria-hidden="true"></i></a></span>
+            <span class="followme"><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"
+                        aria-hidden="true"></i></a></span>
+            <span class="followme"><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square"
+                        aria-hidden="true"></i></a></span>
+        </div>
+    </footer>
+
+
+</body>
+
 </html>
