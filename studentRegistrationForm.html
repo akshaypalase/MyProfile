@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<htm>
+    <head>
+        <title>Registration form</title>
+        <style>
+            label{
+                margin-right: 10px;
+               
+            }
+           td{
+                margin-bottom: 20px;
+                color: rgb(98, 176, 240);
+                
+                
+            }
+            #normal{
+                text-shadow: 4px 2px 2px #bdc3c7;
+            
+                text-transform: capitalize;
+            }
+            input[type="text"],input[type="password"],input[type="number"] {
+                                  background-color: #dce3e4;
+            }
+            input[type="button"]{
+                background-color: rgb(95, 226, 226);
+            }
+            input[type="button"]:hover{
+                background-color: palevioletred;
+            }  
+        </style>
+    </head>
+    <body>
+        <span id="normal"><h3>Student Registration Form</h3></span>
+        <form>
+            <table>
+                <tr>
+                    <td><label>Full Name</label></td>
+                   <form> <td><input type="text" autofocus required maxlength="20" ></td></form>
+                </tr>
+                <tr>
+                    <td><label>Email Address</label></td>
+                    <td><input type="text" placeholder="abc@gmail.com"></td>
+                </tr>
+                <tr>
+                    <td><label>Password</label></td>
+                    <td><input type="password"  required></td>
+                </tr>
+                <tr>
+                    <td>Contact Number</td>
+                    <td><input type="number" required></td>
+                </tr>
+                <tr>
+                    <td><label>Profile photo</label></td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td><label>Date of Birth</label></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender</label></td>
+                    <td><input type="radio" name="gender"><label>Male</label>
+                        <input type="radio" name="gender"><label>Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Martial Status</label></td>
+                    <td><input type="radio" name="martial"><label>Yes</label>
+                    <input type="radio" name="martial"><label>No</label></td>
+                </tr>
+                <tr>
+                    <td><label>Known Tools & Technology</label></td>
+                    
+                        <td>
+                           <input type="checkbox"><label>Angular</label>
+                           <input type="checkbox"><label>React</label>
+                           <input type="checkbox"><label>Python</label>
+                           <input type="checkbox"><label>Java</label>
+                           <input type="checkbox"><label>Jenkin</label>
+                           <input type="checkbox"><label>GIT</label>
+                           <input type="checkbox"><label>Database</label>
+                        </td>
+                </tr>
+                <tr>
+                    <td><label>Profile</label></td>
+                    <td>
+                        <select>
+                            <option>UI Developer</option>
+                            <option>Backend Developer</option>
+                            <option>Full Stack Developer</option>
+                            <option>DevOps Engineer</option>
+                            <option>Tester</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Country</label></td>
+                    <td><input type="text" readonly placeholder="India"></td>
+                </tr>
+                <tr>
+                    <td><label>Present Address</label></td>
+                    <td><input type="text" cols="1" rows="6"></td>
+                </tr>
+                <tr>
+                    <td><label><input type="button" value="submit"></label></td>
+                    <td><input type="button" value="reset"></td>
+                </tr>
+            </table>
+        </form>
+        
+    
+
+          
+            
+    </body>
+</htm>
